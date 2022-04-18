@@ -213,6 +213,21 @@
     max-width: 1300px;
     padding: 0 50px;
 }
+.main__containerrr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 120vh;
+    background-color: #659dbd;
+
+    background-image: linear-gradient(to top, #c4dceb 0%, #3590c5 100%);
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
 .main__containerr {
     text-align: center;
     display: flex;
