@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background: #BC986A;
+    background: #bcc4d3;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@
 
 #navbar__logo {
     background-color: #ffffff;
-    background-image: linear-gradient(to top, #DAAD86 0%, #FBEEC1 100%);
+    background-image: linear-gradient(to top, #DAAD86 0%, #9c4350 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -87,7 +87,7 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #8D8741;
+    background: #9c4350;
     color: #fff;
 }
 
@@ -125,7 +125,7 @@
     }
 
     .navbar__menu.active {
-        background: #daad86;
+        background: #bcc4d3;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -194,8 +194,7 @@
 }
 
 .main {
-    background-color: #659dbd;
-    background-image: linear-gradient(to top, #c4dceb 0%, #3590c5 100%);
+    background-color: #f0f0f0;
 }
 
 .main__container {
@@ -205,9 +204,8 @@
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color: #659dbd;
+    background-color: #f0f0f0;    
 
-    background-image: linear-gradient(to top, #c4dceb 0%, #3590c5 100%);
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -220,9 +218,8 @@
     justify-self: center;
     margin: 0 auto;
     height: 120vh;
-    background-color: #659dbd;
+    background-color: #f0f0f0;
 
-    background-image: linear-gradient(to top, #c4dceb 0%, #3590c5 100%);
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -236,18 +233,30 @@
     justify-self: center;
     margin: auto;
     height: auto;
-    background-color: #659dbd;
+    background-color: #f0f0f0;
 
-    background-image: linear-gradient(to top, #c4dceb 0%, #3590c5 100%);
     z-index: 1;
     width: 100%;
     max-width: 800px;
     padding: 0 50px;
 }
+.kommentti {
+    text-align: center;
+    
+    align-items: center;
+    justify-self: center;
+    margin: auto;
+    height: 100vh;
+    background-color: #f0f0f0;
+
+}
+.kommentti li {
+    margin: 15px 0;
+}
 
 .main__content h1 {
     font-size: 3rem;
-    background-color: #fff;
+    background-color: #655555;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -256,7 +265,7 @@
 }
 .main__content h2 {
     font-size: 2.5rem;
-    background-color: #fff;
+    background-color: #655555;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -268,13 +277,13 @@
     margin-top: 1rem;
     font-size: 1.2rem;
     font-weight: 400;
-    color: #fff;
+    color: #655555;
 }
 .main__content i {
     margin-top: 1rem;
     font-size: 1rem;
     font-weight: 100;
-    color: #fff;
+    color: #655555;
 }
 
 .main__btn {
@@ -321,6 +330,18 @@
 .main__img--container {
     text-align: center;
     
+}
+.main__img--container i {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #655555;
+}
+.main__img--container p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #655555;
 }
 .art--container {
    text-align: center;
@@ -500,4 +521,57 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #c4dceb;
+}
+
+
+.comment {
+    width: 600px;
+    border: 2px solid #333;
+    padding: 15px 10px;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+
+}
+
+.comment h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+textarea
+{
+    height: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #aaa;
+    background-color: transparent;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    transition: .5s
+}
+
+input[type="submit"], button
+{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type="submit"]
+{
+    color: #fff;
+    background-color: #273c75
+}
+button
+{
+    color: #333;
+    background-color: transparent
+}
+.btn
+{
+    display: none
 }
